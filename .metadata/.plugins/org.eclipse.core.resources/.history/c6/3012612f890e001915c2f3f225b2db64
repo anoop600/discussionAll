@@ -1,0 +1,8 @@
+package com.mindtree.hotel.repository;
+
+
+import com.mindtree.globalSummit.entity.Booking;
+
+public interface BookingRepository extends JpaRepository<Booking, Integer> {
+
+}

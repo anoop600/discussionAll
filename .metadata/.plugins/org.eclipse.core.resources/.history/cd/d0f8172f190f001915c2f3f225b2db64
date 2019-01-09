@@ -1,0 +1,14 @@
+<html>
+<body>
+	<h2>WELCOME TO ....!</h2>
+	<form action="addEmp1.html" >
+		<input type="submit" value="Add Employee" /> 
+	</form>
+	
+	<form action="getAllEmpDetails1.html" >
+		<input type="submit" value="Get All Employee By Id" /> 
+	</form>
+	
+
+</body>
+</html>

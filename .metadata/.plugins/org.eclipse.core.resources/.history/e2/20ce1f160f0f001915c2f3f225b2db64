@@ -1,0 +1,27 @@
+package com.mindtree.diccussionMVC.dao.daoImpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.mindtree.diccussionMVC.dao.ActorDao;
+import com.mindtree.diccussionMVC.entity.Actor;
+
+@Repository
+public class ActorDaoImpl implements ActorDao {
+
+	@Autowired
+	HibernateTemplate hibernateTemplate;
+	public void AddActor(Actor actor) {
+		hibernateTemplate.save(Actor);
+
+	}
+
+	public List<Actor> ShowAllActor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

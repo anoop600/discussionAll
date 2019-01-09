@@ -1,0 +1,47 @@
+package com.mindtree.diccussionMVC.entity;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Scope("prototype")
+@Component
+@Entity
+@Table
+public class Genre {
+	@Id
+	private int id;
+	private String name;
+//	@OneToMany
+//	private List<Movie> movies;
+	
+	private List<Movie> movies;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "id=" + id + ", name=" + name + "\n";
+	}
+
+}

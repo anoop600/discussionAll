@@ -1,0 +1,9 @@
+package com.mindtree.diccussionMVC;
+
+import com.mindtree.diccussionMVC.service.MovieService;
+
+public class App {
+	public static void main(String[] args) {
+		MovieService ms=new 
+	}
+}

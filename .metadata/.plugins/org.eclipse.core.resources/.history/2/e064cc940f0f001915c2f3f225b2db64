@@ -1,0 +1,5 @@
+package com.mindtree.diccussionMVC.exception;
+
+public class MainAppException extends Exception{
+
+}

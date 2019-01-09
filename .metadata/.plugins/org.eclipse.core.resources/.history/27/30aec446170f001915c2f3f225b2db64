@@ -1,0 +1,34 @@
+package com.mindtree.diccussionMVC.dao.daoImpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataAccessException;
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.mindtree.diccussionMVC.dao.GenreDao;
+import com.mindtree.diccussionMVC.entity.Genre;
+import com.mindtree.diccussionMVC.exception.dao.DaoException;
+
+@Repository
+public class GenreDaoImpl implements GenreDao {
+
+	@Autowired
+	HibernateTemplate hibernateTemplate;
+
+	@Override
+	public void addGenre(Genre genre) throws DaoException {
+		try {
+			hibernateTemplate.save(genre);
+		} catch (DataAccessException e) {
+			throw new DaoException("Genre cannot ber added in DAO ", e);
+		}
+	}
+
+	@Override
+	public List<Genre> getAllGenre() {
+		return hibernateTemplate.loadAll(Genre.class);
+	}
+
+}

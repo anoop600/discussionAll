@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\M1049314\Desktop\hateaos"/>
+		<item value="D:\SpringProj\HibEmployee"/>
+		<item value="D:\SpringProj\SpringHibernateExample"/>
+		<item value="C:\Users\M1049314\Downloads\SpringMVCHibernate"/>
+		<item value="D:\SpringProj\SpringMVCCRUDSimple"/>
+		<item value="D:\M1049314\photonWorkSpace\LoginEmployee"/>
+		<item value="C:\Users\M1049314\Desktop\PeopleManagementSpringBootDataApp2\PeopleManagementSpringBootDataApp"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="402" key="DIALOG_HEIGHT"/>
+		<item value="550" key="DIALOG_X_ORIGIN"/>
+		<item value="162" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ResourceNavigator">
+		<item value="Aggregate for window 1542878400642" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

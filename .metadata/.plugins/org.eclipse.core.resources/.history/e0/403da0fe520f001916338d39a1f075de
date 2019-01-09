@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Get MOVIE</title>
+</head>
+<body>
+	<table>
+		<tr>
+			<th>Id</th>
+			<th>Name</th>
+			<th>Genre</th>
+			<th>Actors</th>
+			<th>Type</th>
+			<th>Box Office</th>
+
+
+		</tr>
+		<c:forEach items="${message}" var="movie">
+			<tr>
+				<td>${movie.id}</td>
+				<td>${movie.name}</td>
+				<td>${movie.genre}</td>
+				<td>${movie.actors}</td>
+				<td>${movie.type}</td>
+				<td>${movie.boxoffice}</td>
+			</tr>
+		</c:forEach>
+
+	</table>
+
+	<a href="index.html">Index</a>
+</body>
+</html>

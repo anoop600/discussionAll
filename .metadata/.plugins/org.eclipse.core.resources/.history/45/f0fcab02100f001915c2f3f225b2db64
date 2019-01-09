@@ -1,0 +1,7 @@
+package com.mindtree.diccussionMVC.dao;
+
+import com.mindtree.diccussionMVC.entity.Genre;
+
+public interface GenreDao {
+public void addGenre(Genre genre);
+}

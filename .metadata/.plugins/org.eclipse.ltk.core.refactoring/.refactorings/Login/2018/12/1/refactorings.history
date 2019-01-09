@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Login/src/main/java/com/mindtree/login/service/serviceIMpl&apos; to &apos;serviceImpl&apos;" description="Rename resource &apos;serviceIMpl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/mindtree/login/service/serviceIMpl" name="serviceImpl" stamp="1546252664224" updateReferences="true"/>
+</session>

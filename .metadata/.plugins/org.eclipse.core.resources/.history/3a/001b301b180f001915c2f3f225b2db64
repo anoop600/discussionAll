@@ -1,0 +1,27 @@
+package com.mindtree.diccussionMVC.service.serviceImpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.mindtree.diccussionMVC.dao.MovieDao;
+import com.mindtree.diccussionMVC.entity.Movie;
+import com.mindtree.diccussionMVC.service.MovieService;
+
+public class MovieServiceImpl implements MovieService {
+
+	@Autowired
+	MovieDao movieDao;
+	@Override
+	public void addMovie() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Movie> getAllMovie() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

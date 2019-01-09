@@ -1,0 +1,47 @@
+package com.mindtree.diccussionMVC.dao.daoImpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataAccessException;
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.mindtree.diccussionMVC.dao.MovieDao;
+import com.mindtree.diccussionMVC.entity.Movie;
+import com.mindtree.diccussionMVC.exception.dao.DaoException;
+
+@Repository
+public class MovieDaoImpl implements MovieDao {
+
+	@Autowired
+	HibernateTemplate hibernateTemplate;
+
+	public void addMovie(Movie movie) throws DaoException {
+		try {
+			hibernateTemplate.save(movie);
+		} catch (DataAccessException e) {
+			throw new DaoException("Movie cannot be added in DAO", e);
+		}
+	}
+
+	public List<Movie> getAllMovie() throws DaoException {
+		try {
+			return hibernateTemplate.loadAll(Movie.class);
+		} catch (DataAccessException e) {
+			throw new DaoException("Movie list cannot be obtained", e);
+		}
+	}
+
+	@Override
+	public void updateBoxOffice(Movie movie) throws DaoException {
+		try {
+			
+			hibernateTemplate.saveOrUpdate(movie);
+		} catch (DataAccessException e) {
+			throw new DaoException("Update not successfull", e);
+		}
+
+	}
+
+}

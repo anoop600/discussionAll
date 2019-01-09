@@ -1,0 +1,13 @@
+package com.mindtree.diccussionMVC.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.mindtree.diccussionMVC.entity.Genre;
+@Service
+public interface GenreService {
+	public void addGenre(Genre genre);
+
+	public List<Genre> getAllGenre();
+}

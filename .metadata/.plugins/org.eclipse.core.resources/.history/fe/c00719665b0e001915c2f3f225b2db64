@@ -1,0 +1,5 @@
+package com.mindtree.employeeBoot.entity;
+
+public class Employee {
+
+}

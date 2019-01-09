@@ -1,0 +1,12 @@
+package com.mindtree.diccussionMVC.service;
+
+import java.util.List;
+
+import com.mindtree.diccussionMVC.entity.Actor;
+
+public interface ActorService {
+	public void AddActor(Actor actor);
+
+	public List<Actor> ShowAllActor();
+
+}

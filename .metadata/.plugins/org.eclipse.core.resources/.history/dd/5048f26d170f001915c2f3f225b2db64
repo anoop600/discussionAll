@@ -1,0 +1,33 @@
+package com.mindtree.diccussionMVC.service.serviceImpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.mindtree.diccussionMVC.dao.GenreDao;
+import com.mindtree.diccussionMVC.entity.Genre;
+import com.mindtree.diccussionMVC.exception.dao.DaoException;
+import com.mindtree.diccussionMVC.exception.service.ServiceException;
+import com.mindtree.diccussionMVC.service.GenreService;
+
+public class GenreServiceImpl implements GenreService {
+
+	@Autowired
+	GenreDao genreDao;
+
+	@Override
+	public void addGenre(Genre genre) throws ServiceException {
+		try {
+			genreDao.addGenre(genre);
+		} catch (DaoException e) {
+			throw new ServiceException("Gernce Cannot ber added in Service", e);
+		}
+
+	}
+
+	@Override
+	public List<Genre> getAllGenre() {
+		return genreDao.getAllGenre();
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.mindtree.diccussionMVC.dao.daoImpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.mindtree.diccussionMVC.dao.MovieDao;
+import com.mindtree.diccussionMVC.entity.Movie;
+
+@Repository
+public class MovieDaoImpl implements MovieDao {
+
+	@Autowired
+	HibernateTemplate hibernateTemplate;
+
+	@Override
+	public void addMovie(Movie movie) {
+		hibernateTemplate.save(Movie.class);
+	}
+
+	@Override
+	public List<Movie> getAllMovie() {
+		return hibernateTemplate.loadAll(Movie.class);
+	}
+
+}

@@ -1,0 +1,7 @@
+package com.mindtree.diccussionMVC.dao.daoImpl;
+
+import com.mindtree.diccussionMVC.dao.MovieDao;
+
+public class MovieDaoImpl implements MovieDao {
+
+}

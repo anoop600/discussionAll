@@ -1,0 +1,22 @@
+#db.driver=com.mysql.jdbc.Driver
+#db.url=jdbc:mysql://localhost:3306/springmvcdisc
+#db.username=root
+#db.password=Welcome123
+#
+##Hibernate properties
+#hibernate.show_sql=true
+#hibernate.hbm2ddl.auto=update
+#hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
+#hibernate.format_sql=false
+
+
+db.url=jdbc:mysql://anooptest.ccolsnxxhzzy.us-west-2.rds.amazonaws.com:3306
+db.driver=com.mysql.jdbc.Driver
+db.username=root
+db.password=password
+
+ Hibernate properties
+hibernate.show_sql=true
+hibernate.hbm2ddl.auto=update
+hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
+hibernate.format_sql=false

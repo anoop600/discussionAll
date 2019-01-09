@@ -1,0 +1,15 @@
+db.driver=com.mysql.jdbc.Driver
+#db.url=jdbc:mysql://localhost:3306/springHibernatedemo
+
+db.url=jdbc:mysql://us-west-2.console.aws.amazon.com/rds/home?region=us-west-2#dbinstances:id=aa1gv38wocs9jk4/aa1gv38wocs9jk4
+db.username=root
+#db.password=Welcome123
+db.password=password
+# Hibernate properties
+hibernate.show_sql=true
+hibernate.hbm2ddl.auto=update
+hibernate.dialect=org.hibernate.dialect.MySQLDialect
+hibernate.format_sql=false
+
+
+

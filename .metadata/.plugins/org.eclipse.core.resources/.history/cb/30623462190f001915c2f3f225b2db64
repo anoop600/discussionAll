@@ -1,0 +1,14 @@
+<html>
+<body>
+	<h2>WELCOME TO ....!</h2>
+	<form action="addActor1.html">
+		<input type="submit" value="Add Actor" />
+	</form>
+
+	<form action="getAllActorDetails1.html">
+		<input type="submit" value="Get All Actor" />
+	</form>
+
+
+</body>
+</html>

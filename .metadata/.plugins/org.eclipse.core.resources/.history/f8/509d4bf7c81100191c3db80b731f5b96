@@ -1,0 +1,30 @@
+package com.mindtree.javaEighr;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.time.LocalDate;
+
+
+public class DataTimeDemo {
+
+	public static void main(String[] args) {
+		LocalDate l=new LocalDate(2,50,50);
+		Connection c = null;
+		String url = "jdbc:mysql://localhost:3306/localdemo";
+		String user = "root";
+		String password = "Welcome123";
+		Employee employee = new Employee();
+		try {
+			c = DriverManager.getConnection(url, user, password);
+			Strin query="("insert into demo values(1,"Anoop",new Local
+			PreparedStatement ps=c.prepareStatement();
+		} catch (SQLException e) {
+			
+		}
+		
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package com.mindtree.diccussionMVC.dao.daoImpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.mindtree.diccussionMVC.dao.GenreDao;
+import com.mindtree.diccussionMVC.entity.Genre;
+
+@Repository
+public class GenreDaoImpl implements GenreDao {
+
+	@Autowired
+	HibernateTemplate hibernateTemplate;
+	@Override
+	public void addGenre(Genre genre) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Genre> getAllGenre() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

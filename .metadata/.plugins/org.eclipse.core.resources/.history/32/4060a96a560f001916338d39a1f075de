@@ -1,0 +1,71 @@
+package com.mindtree.diccussionMVC.entity;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Scope("prototype")
+@Component
+@Entity
+@Table
+public class Movie {
+	@GeneratedValue
+	@Id
+	private int id;
+	private String name;
+
+	private Genre genre;
+
+	private List<Actor> actor;
+
+	private String type;
+	private long boxoffice;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public long getBoxoffice() {
+		return boxoffice;
+	}
+
+	public void setBoxoffice(long boxoffice) {
+		this.boxoffice = boxoffice;
+	}
+
+	@Override
+	public String toString() {
+		return "Movie [id=" + id + ", name=" + name + ", genre=" + genre + ", type=" + type + ", boxoffice=" + boxoffice
+				+ "]";
+	}
+
+}

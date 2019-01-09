@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Hotel/src/main/webapp/WEB-INF/Employee-Management-servlet.xml&apos; to &apos;Hotel-Management-servlet.xml&apos;" description="Rename resource &apos;Employee-Management-servlet.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/Employee-Management-servlet.xml" name="Hotel-Management-servlet.xml" stamp="1546450422020" updateReferences="true"/>
+</session>

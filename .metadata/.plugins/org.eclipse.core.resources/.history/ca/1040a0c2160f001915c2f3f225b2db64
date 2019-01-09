@@ -1,0 +1,27 @@
+package com.mindtree.diccussionMVC.service.serviceImpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.mindtree.diccussionMVC.dao.GenreDao;
+import com.mindtree.diccussionMVC.entity.Genre;
+import com.mindtree.diccussionMVC.service.GenreService;
+
+public class GenreServiceImpl implements GenreService{
+
+	@Autowired
+	GenreDao genreDao;
+	@Override
+	public void addGenre(Genre genre) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Genre> getAllGenre() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

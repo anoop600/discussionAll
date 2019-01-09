@@ -1,0 +1,22 @@
+package com.mindtree.diccussionMVC.service.serviceImpl;
+
+import java.util.List;
+
+import com.mindtree.diccussionMVC.entity.Actor;
+import com.mindtree.diccussionMVC.service.ActorService;
+
+public class ActorServiceImpl implements ActorService {
+
+	@Override
+	public void AddActor(Actor actor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Actor> ShowAllActor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Disc/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;discussion&apos;&#x0D;&#x0A;- Destination element: &apos;Disc/src/(default package)&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.mindtree.discussion.util.DbConstant.java&#x0D;&#x0A;     com.mindtree.discussion.util.DbConnectDAO.java" description="Copy compilation units" destination="=Disc/src&lt;" element1="/src\/main\/java&lt;com.mindtree.discussion.util{DbConstant.java" element2="/src\/main\/java&lt;com.mindtree.discussion.util{DbConnectDAO.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1543475399652" units="2" version="1.0"/>
+</session>

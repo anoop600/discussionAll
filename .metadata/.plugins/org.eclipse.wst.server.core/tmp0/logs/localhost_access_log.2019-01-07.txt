@@ -1,0 +1,8 @@
+127.0.0.1 - - [07/Jan/2019:12:56:32 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [07/Jan/2019:12:56:33 +0530] "GET /DiscussionMCV/ HTTP/1.1" 200 730
+0:0:0:0:0:0:0:1 - - [07/Jan/2019:12:56:37 +0530] "GET /DiscussionMCV/addActor1.html? HTTP/1.1" 500 52568
+0:0:0:0:0:0:0:1 - - [07/Jan/2019:12:57:03 +0530] "GET /DiscussionMCV/addActor1.html? HTTP/1.1" 500 52568
+127.0.0.1 - - [07/Jan/2019:14:06:35 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [07/Jan/2019:14:06:36 +0530] "GET /DiscussionMCV/ HTTP/1.1" 200 730
+0:0:0:0:0:0:0:1 - - [07/Jan/2019:14:06:40 +0530] "GET /DiscussionMCV/addActor1.html? HTTP/1.1" 200 717
+0:0:0:0:0:0:0:1 - - [07/Jan/2019:14:06:44 +0530] "GET /DiscussionMCV/getAllActorDetails1.html? HTTP/1.1" 200 1098

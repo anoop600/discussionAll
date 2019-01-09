@@ -1,0 +1,8 @@
+package com.mindtree.diccussionMVC.dao;
+
+import com.mindtree.diccussionMVC.entity.Actor;
+
+public interface ActorDao {
+	public void AddActor(Actor actor);
+
+}

@@ -1,0 +1,12 @@
+package com.mindtree.diccussionMVC.dao;
+
+import java.util.List;
+
+import com.mindtree.diccussionMVC.entity.Actor;
+
+public interface ActorDao {
+	public void AddActor(Actor actor);
+
+	public List<Actor> ShowAllActor();
+
+}

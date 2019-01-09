@@ -1,0 +1,23 @@
+package com.mindtree.diccussionMVC.dao.daoImpl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.mindtree.diccussionMVC.dao.ActorDao;
+import com.mindtree.diccussionMVC.entity.Actor;
+
+@Repository
+public class ActorDaoImpl implements ActorDao {
+
+	public void AddActor(Actor actor) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public List<Actor> ShowAllActor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.mindtree.diccussionMVC.service.serviceImpl;
+
+import java.util.List;
+
+import com.mindtree.diccussionMVC.entity.Movie;
+import com.mindtree.diccussionMVC.service.MovieService;
+
+public class MovieServiceImpl implements MovieService{
+
+	@Override
+	public void addMovie() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Movie> getAllMovie() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

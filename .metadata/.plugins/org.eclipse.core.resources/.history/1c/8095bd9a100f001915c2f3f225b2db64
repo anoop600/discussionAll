@@ -1,0 +1,7 @@
+package com.mindtree.diccussionMVC.dao;
+
+public interface MovieDao {
+public addMovie() {
+	
+}
+}

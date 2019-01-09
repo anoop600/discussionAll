@@ -1,0 +1,10 @@
+package com.mindtree.diccussionMVC.dao;
+
+import java.util.List;
+
+import com.mindtree.diccussionMVC.entity.Movie;
+
+public interface MovieDao {
+	public void addMovie();
+	public List<Movie> getAllMovie();
+}

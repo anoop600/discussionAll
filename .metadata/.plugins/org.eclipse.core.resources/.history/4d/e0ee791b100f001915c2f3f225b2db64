@@ -1,0 +1,5 @@
+package com.mindtree.diccussionMVC.dao.daoImpl;
+
+public class GenreDaoImpl {
+
+}

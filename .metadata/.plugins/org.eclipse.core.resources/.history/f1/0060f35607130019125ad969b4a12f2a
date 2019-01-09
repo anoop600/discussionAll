@@ -1,0 +1,22 @@
+#db.driver=com.mysql.jdbc.Driver
+#db.url=jdbc:mysql://localhost:3306/springmvcdisc
+#db.username=root
+#db.password=Welcome123
+#
+##Hibernate properties
+#hibernate.show_sql=true
+#hibernate.hbm2ddl.auto=update
+#hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
+#hibernate.format_sql=false
+
+
+db.url=jdbc:sqlserver://srinianoopdemo.database.windows.net:1433;database=srinianoopdemo;
+db.driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
+db.username=masterUserName
+db.password=masterAnoop!
+
+#Hibernate properties
+hibernate.show_sql=true
+hibernate.hbm2ddl.auto=update
+hibernate.dialect=org.hibernate.dialect.SQLServerDialect
+hibernate.format_sql=false
